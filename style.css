@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+.one{
+    height: 1000px;
+    background-image: url(./image/banner.jpg);
+ background-position: center;
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     position: relative;
+     margin-block: 10px;
+    }
+    
+    .child img{
+width: fit-content;
+height: 50px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-20%,-20%);
+
+    }
+        
+    
